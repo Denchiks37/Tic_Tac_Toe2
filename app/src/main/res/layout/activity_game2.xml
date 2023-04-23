@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="18dp"
+    tools:context=".Game"
+    android:background="#D6D7D7">
+
+    <ImageButton
+        android:id="@+id/BackGame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/back"
+        android:minWidth="60dp"
+        android:minHeight="60dp"
+        android:padding="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/Turn"
+        style="@style/primaryTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:minHeight="40dp"
+        android:minWidth="80dp"
+        android:layout_marginTop="50dp"
+        android:textSize="30sp"
+        tools:text="@string/turn"/>
+
+
+    <LinearLayout
+        android:id="@+id/GameCont"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="100dp"
+        android:weightSum="3"
+        android:orientation="vertical"
+        android:layout_below="@id/BackGame">
+
+        <LinearLayout
+            android:id="@+id/FirstRow"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="3.02">
+
+            <ImageView
+                android:id="@+id/First"
+                style="@style/squares"
+                android:tag="1"/>
+
+            <View
+                style="@style/VertLines"/>
+
+            <ImageView
+                android:id="@+id/Second"
+                style="@style/squares"
+                android:tag="2"/>
+
+            <View
+                style="@style/VertLines"/>
+
+            <ImageView
+                android:id="@+id/Third"
+                style="@style/squares"
+                android:tag="3"/>
+
+        </LinearLayout>
+
+        <View
+            style="@style/HortLines"/>
+
+        <LinearLayout
+            android:id="@+id/SecondRow"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/Fourth"
+                style="@style/squares"
+                android:tag="4"/>
+
+            <View
+                style="@style/VertLines"/>
+
+            <ImageView
+                android:id="@+id/Fifth"
+                style="@style/squares"
+                android:tag="5"/>
+
+            <View
+                style="@style/VertLines"/>
+
+            <ImageView
+                android:id="@+id/Sixth"
+                style="@style/squares"
+                android:tag="6"/>
+
+        </LinearLayout>
+
+        <View
+            style="@style/HortLines"/>
+
+        <LinearLayout
+            android:id="@+id/ThirdRow"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/Seventh"
+                style="@style/squares"
+                android:tag="7"/>
+
+            <View
+                style="@style/VertLines"/>
+
+            <ImageView
+                android:id="@+id/Eigth"
+                style="@style/squares"
+                android:tag="8"/>
+
+            <View
+                style="@style/VertLines"/>
+
+            <ImageView
+                android:id="@+id/Ninth"
+                style="@style/squares"
+                android:tag="9"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

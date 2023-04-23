@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Players"
+    android:background="#D6D7D7">
+
+    <ImageButton
+        android:id="@+id/GetBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/back"
+        android:minWidth="60dp"
+        android:minHeight="60dp"
+        android:padding="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/UsernameInputLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/GetBack"
+        android:layout_marginTop="150dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        app:startIconDrawable="@drawable/user">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/name"
+        android:textSize="25dp"
+        android:imeOptions="actionDone"
+        android:singleLine="true"
+        android:maxLines="1"
+        />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/Next"
+            style="@style/buttonPvP"
+            android:layout_below="@+id/UsernameInputLayout"
+            android:layout_marginTop="20dp"
+            android:text="@string/next"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+</RelativeLayout>

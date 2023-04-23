@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="primaryTextStyle">
+        <item name="android:textSize" type="">20sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+</style>
+    
+    <style name="buttonPvP">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:minHeight">35dp</item>
+        <item name="android:minWidth">150dp</item>
+        <item name="android:background">@drawable/ic_rectangle_shape</item>
+        <item name="android:paddingLeft">28dp</item>
+        <item name="android:paddingRight">28dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+    </style>
+
+    <style name="buttonPvC" parent="buttonPvP">
+
+    </style>
+
+    <style name="CrossCircle">
+        <item name="android:textSize" type="">20sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+    <style name="squares">
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">0dp</item>
+    </style>
+    
+    <style name="VertLines">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">0.01</item>
+        <item name="android:background">@color/black</item>
+    </style>
+
+    <style name="HortLines">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">0.01</item>
+        <item name="android:background">@color/black</item>
+    </style>
+
+    
+</resources>

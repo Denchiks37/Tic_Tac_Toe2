@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Tic Tac Toe</string>
+    <string name="choose_game_mode">Choose Game Mode</string>
+    <string name="PvC">PvC</string>
+    <string name="name">Enter First Player Name</string>
+    <string name="name2">Enter Second Player Name</string>
+    <string name="pvp">PvP</string>
+    <string name="welcome_to_tic_tac_toe">Welcome to Tic Tac Toe</string>
+    <string name="next">Next</string>
+    <string name="choose_your_side">Choose Your Side</string>
+    <string name="please_enter_username">Please enter username</string>
+    <string name="circle">Circle</string>
+    <string name="cross">Cross</string>
+    <string name="you_choosed">You choosed</string>
+    <string name="turn">Turn</string>
+    <string name="Winner">Is a winner</string>
+    <string name="play_again">Play Again</string>
+    <string name="Draw">It\'s a draw!</string>
+    <string name="game_result">Game Result:</string>
+    <string name="result_default_text">Game Result:</string>
+</resources>
